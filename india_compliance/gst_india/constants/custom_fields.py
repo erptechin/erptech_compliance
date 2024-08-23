@@ -1126,6 +1126,13 @@ CUSTOM_FIELDS = {
             "translatable": 0,
         },
         {
+            "fieldname": "pan",
+            "label": "PAN",
+            "fieldtype": "Data",
+            "insert_after": "gstin",
+            "translatable": 0,
+        },
+        {
             "fieldname": "gst_state",
             "label": "GST State",
             "fieldtype": "Select",
